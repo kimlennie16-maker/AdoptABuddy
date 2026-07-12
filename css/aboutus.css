@@ -1,0 +1,37 @@
+main {
+    min-height: 100vh;
+    padding: 80px 30px 30px 30px;
+    background-color: #b1855c;
+}
+
+section {
+    margin-top: 50px;
+    border-radius: 30px;
+    padding: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+
+}
+
+.team img {
+    width: 200px;
+    margin: 20px auto;
+}
+
+.about {
+    line-height: normal;
+    text-align: center;
+}
+
+.about .socialmedia i {
+    color: black;
+}
+
+.box {
+    margin-left: 30px;
+    display: flex;
+}
+
+.col img {
+    margin-left: 40px;
+}

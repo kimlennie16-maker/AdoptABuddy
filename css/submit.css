@@ -1,0 +1,53 @@
+body {
+    background-color: #b1855c;
+}
+
+main {
+    min-height: 100vh;
+    padding: 100px 0 30px 0;
+    color: white;
+
+}
+
+h3 {
+    color: black;
+}
+
+.form {
+    border-radius: 30px;
+    padding: 50px;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(2px);
+}
+
+.submitText {
+    padding: 20px;
+    text-align: center;
+    width: 700px;
+    margin: 0 auto;
+}
+
+.form select,
+input,
+textarea {
+    margin-bottom: 20px;
+}
+
+.form button {
+    float: inline-end;
+    width: 100px;
+}
+
+.buttons button {
+    width: auto;
+    margin-left: 10px;
+}
+
+#pethealth {
+    display: none;
+}
+
+#petinformation {
+    display: none;
+}
