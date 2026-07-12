@@ -62,7 +62,7 @@ h5 {
 }
 
 .pet1 {
-    background-image: url(/assets/images/pet1.jpg);
+    background-image: url(../assets/images/pet1.jpg);
     background-size: cover;
     box-shadow: #8a501b 14px 5px 24px;
     width: 250px;
@@ -71,7 +71,7 @@ h5 {
 }
 
 .pet2 {
-    background-image: url(/assets/images/pet2.jpg);
+    background-image: url(../assets/images/pet2.jpg);
     background-size: cover;
     box-shadow: #8a501b 14px 5px 24px;
     width: 250px;
@@ -80,7 +80,7 @@ h5 {
 }
 
 .pet3 {
-    background-image: url(/assets/images/pet3.jpg);
+    background-image: url(../assets/images/pet3.jpg);
     background-size: cover;
     box-shadow: #8a501b 14px 5px 24px;
     width: 250px;
@@ -89,7 +89,7 @@ h5 {
 }
 
 .pet4 {
-    background-image: url(/assets/images/pet4.jpg);
+    background-image: url(../assets/images/pet4.jpg);
     background-size: cover;
     box-shadow: #8a501b 14px 5px 24px;
     width: 250px;
