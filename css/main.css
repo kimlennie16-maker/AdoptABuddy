@@ -48,7 +48,7 @@ h5 {
 }
 
 .section1 {
-    padding: 30px 0;
+    padding: 50px 0;
 }
 
 .content {
@@ -68,6 +68,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .pet2 {
@@ -77,6 +78,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .pet3 {
@@ -86,6 +88,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .pet4 {
@@ -95,17 +98,12 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
-.petpic {
-    padding: 10px 0;
-    display: flex;
-    justify-content: space-between;
-}
 
 /* Section2 */
 .section2 {
-    /* background-color: var(--color-background); */
     background: linear-gradient(to top, #8a501b, white);
     padding: 20px 120px 20px 120px;
     height: 350px;
@@ -117,7 +115,6 @@ h5 {
 }
 
 .section3 {
-    /* padding: 20px 120px 20px 120px; */
     background-image: url(../assets/images/rows.jpg);
     height: 280px;
 
@@ -132,14 +129,52 @@ h5 {
 
 /* section2 */
 .box {
-    width: 500px;
+    width: 450px;
     border: 1px solid black;
     border-radius: 10px;
-    display: inline-block;
     padding: 30px;
-    margin-left: 30px;
-    margin-top: 30px;
+    margin: 0 auto;
     background: rgba(255, 255, 255, 0.5);
     backdrop-filter: blur(2px);
 
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .box {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .section2 {
+        height: 570px;
+    }
+
+    .pet1,
+    .pet2,
+    .pet3,
+    .pet4 {
+        width: 250px;
+        height: 200px;
+    }
+
+    .quiz {
+        width: 450px;
+    }
+
+    .mainPic {
+        background-size: cover;
+    }
+
+    .mainPic h1 {
+        font-size: 50px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .mainPic {
+        padding: 200px 0 0 100px;
+        text-align: center;
+    }
 }

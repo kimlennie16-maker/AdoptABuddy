@@ -21,6 +21,7 @@ section {
 .about {
     line-height: normal;
     text-align: center;
+    margin: 0 auto;
 }
 
 .about .socialmedia i {
@@ -34,4 +35,21 @@ section {
 
 .col img {
     margin-left: 40px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+    .col img {
+        margin-left: 28px;
+        width: 130px;
+    }
+
+    .about {
+        font-size: 15px;
+        line-height: 15px;
+        margin-left: 20px;
+    }
+
+    .box {
+        margin: 0 auto;
+    }
 }
