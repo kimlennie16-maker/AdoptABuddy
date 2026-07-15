@@ -68,6 +68,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .pet2 {
@@ -77,6 +78,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .pet3 {
@@ -86,6 +88,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 .pet4 {
@@ -95,6 +98,7 @@ h5 {
     width: 250px;
     height: 300px;
     border-radius: 10px;
+    margin-top: 20px;
 }
 
 
@@ -135,33 +139,42 @@ h5 {
 
 }
 
-/* @media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 768px) and (max-width: 992px) {
     .box {
-        width: 450px;
         margin-bottom: 20px;
+        width: 100%;
     }
 
     .section2 {
-        height: 650px;
-    } */
+        height: 570px;
+    }
 
-    /* .pet1,
+    .pet1,
     .pet2,
     .pet3,
     .pet4 {
         width: 250px;
-        height: 250px;
-    } */
+        height: 200px;
+    }
 
-    /* .quiz {
+    .quiz {
         width: 450px;
     }
 
-    .mainPic h1 {
-        font-size: 55px;
+    .mainPic {
+        background-size: cover;
     }
 
-    .text{font-size: 20px;}
+    .mainPic h1 {
+        font-size: 50px;
+    }
 
-    .mainPic{padding-top:22%;}
-} */
+    .text {
+        font-size: 18px;
+    }
+
+    .mainPic {
+        padding: 200px 0 0 100px;
+        text-align: center;
+    }
+}

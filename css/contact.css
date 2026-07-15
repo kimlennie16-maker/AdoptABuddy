@@ -14,7 +14,7 @@ h4 {
 .contact a,
 .association a {
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
 
 .followmedia {
@@ -48,7 +48,6 @@ h4 {
 }
 
 #backgroundContact {
-    height: 100vh;
     padding-top: 50px;
 }
 
@@ -70,4 +69,18 @@ h4 {
 .form input,
 textarea {
     margin-bottom: 20px;
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+    .contact a,
+    .association a {
+        width: 90%;
+    }
+
+    .map {
+        height: 400px;
+        margin: 30px 10px;
+
+    }
 }
